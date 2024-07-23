@@ -1,0 +1,13 @@
+.lorem-header {
+  padding: 16px;
+  background-color: #22043f;
+  color: white;
+  height: 50px;
+  position: sticky;
+  border: 1px solid red;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
