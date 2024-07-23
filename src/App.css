@@ -17,8 +17,12 @@
   height: 100%;
 }
 
-.route-container {
+.app-container {
   width: 100%;
-  background-color: white;
   position: relative;
+}
+
+.page-container {
+  width: 800px;
+  background-color: white;
 }

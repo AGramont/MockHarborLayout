@@ -5,6 +5,16 @@ const B = () => {
     <>
       <LoremSet />
       <LoremSet />
+      <LoremSet />
+      <LoremSet />
+      <LoremSet />
+      <LoremSet />
+      <LoremSet />
+      <LoremSet />
+      <LoremSet />
+      <LoremSet />
+      <LoremSet />
+      <LoremSet />
     </>
   );
 };
