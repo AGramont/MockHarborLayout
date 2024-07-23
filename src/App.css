@@ -23,6 +23,7 @@
 }
 
 .page-container {
-  width: 800px;
+  width: 50%;
+  min-width: 600px;
   background-color: white;
 }
