@@ -5,11 +5,13 @@ type LoremProps = {
 };
 
 const LoremHeader = ({ position }: LoremProps) => {
-  const topHeaderHeight = 70; // the height of the header
-  const top = topHeaderHeight + 50 * (position - 1);
+  const top = 50 * (position - 1);
 
   return (
-    <div className="lorem-header" style={{ top: `${top}px` }}>
+    <div
+      className="lorem-header"
+      style={{ top: `calc(var(--header-height) + ${top}px)` }}
+    >
       <h3>Lorem Header {position}</h3>
     </div>
   );
