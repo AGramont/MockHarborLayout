@@ -1,6 +1,8 @@
+import "./lorem-set.css";
+
 const LoremSet = () => {
   return (
-    <div>
+    <div className="lorem-container">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. At, fugiat
         molestiae ratione maiores delectus ipsum eos vero. Animi non quas quos
